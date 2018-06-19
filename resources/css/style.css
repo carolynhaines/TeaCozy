@@ -1,0 +1,56 @@
+/* Global Styling */
+
+body {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  opacity: 0.9;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 26pt;
+}
+
+h3 {
+  font-size: 24pt;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+
+/* Navigation Bar Styling */
+
+.header {
+   height: 69px;
+   width: 100%;
+   background-color: black;
+   border-bottom: 1px solid seashell;
+   display: flex;
+   position: fixed;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   top: 0px;
+}
+
+.logo img {
+  height: 50px;
+  flex-grow: 2;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+  padding: 10px 12px;
+}
