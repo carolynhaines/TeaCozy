@@ -184,3 +184,18 @@ a {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+
+/* Contact */
+
+.contact {
+  height: 200px;
+  padding-bottom: 20px;
+}
+
+/* Copyright */
+
+.footer {
+  margin-left: 20px;
+  text-align: left;
+}
